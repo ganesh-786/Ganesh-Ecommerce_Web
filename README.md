@@ -132,3 +132,46 @@ All dependencies are listed in `requirements.txt`.
 ## Running the application
   ```bash
     flask run
+---
+
+## Folder Struture
+├── agricart/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── routes/
+│   │   ├── auth.py
+│   │   ├── main.py
+│   │   ├── products.py
+│   │   ├── cart.py
+│   │   └── weather.py
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── product_list.html
+│   │   ├── product_detail.html
+│   │   ├── cart.html
+│   │   ├── checkout.html
+│   │   ├── weather.html
+│   │   ├── techniques.html
+│   │   └── translations/
+│   │       ├── nepali/
+│   │       │   └── *.po / *.mo
+│   │       └── english/
+│   │           └── *.po / *.mo
+│   ├── translations/           # Flask-Babel translation files (if used)
+│   ├── seed_data.py
+│   ├── run.py                  # Entry point
+│   ├── config.py
+│   └── requirements.txt
+└── README.md
+
+
+## Licence
+This project is licensed under the name of Ganesh Chaudhary. Please, Don't copy the code.
