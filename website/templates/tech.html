@@ -1,0 +1,1694 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Techniques
+{% endblock title %}
+
+{% block body %}
+
+<!-- <aside class="bd-aside sticky-xl-top text-body-secondary align-self-start mb-3 mb-xl-5 px-2" style="float: right; width: 10%;">
+    <h2 class="h5 pt-4 pb-1 border-bottom">On this page</h2>
+    <nav class="small" id="toc">
+        <ul class="list-unstyled">
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center border-0" data-bs-toggle="collapse"
+                    aria-expanded="true" data-bs-target="#contents-collapse"
+                    aria-controls="contents-collapse"><strong>Crop Info</strong></button>
+                <ul class="list-unstyled ps-3 collapse show" id="contents-collapse" >
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#typography">Paddy</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#images">Wheat</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#tables">Maize</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none active"
+                            href="#figures">Potato</a></li>
+                </ul>
+            </li>
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center border-0 collapsed" data-bs-toggle="collapse"
+                    aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse"><strong>Tips</strong></button>
+                <ul class="list-unstyled ps-3 collapse" id="forms-collapse" >
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#overview">Garden</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#disabled-forms">Field</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#sizing">Machinery</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#input-group">Tools Utility</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#floating-labels">Gov. Schemes</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#validation">Plant Disease</a></li>
+                </ul>
+            </li>
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center collapsed border-0" data-bs-toggle="collapse"
+                    aria-expanded="false" data-bs-target="#components-collapse"
+                    aria-controls="components-collapse"><strong>Market Priz.</strong></button>
+                <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#accordion">Overview</a></li>
+                    <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                            href="#alerts">All prices</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</aside> -->
+
+<!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::cheatbody:::::::::::::::::::::::::::::::::::::: -->
+<!-- <div class="bd-cheatsheet container-fluid" style=" float: left; width: 90%;">
+    <section id="content">
+        <h2 class="sticky-xl-top text-center fw-bold ">Crop Informaton</h2>
+
+        <article class="my-3" id="typography">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Paddy</h3>
+                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/National_Paddy_Day#History_and_significance" style="float: right;">Documentation</a>
+            </div>
+            <div class="row mb-3 text-center">
+                <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                    <img src="https://media.istockphoto.com/id/514791816/photo/nepalese-man-working-in-a-rice-field.jpg?s=612x612&w=0&k=20&c=nklsF30W6x89KkzEwSafy06fGZw2csuOyV_P8RWMwwI=" class="rounded float-start" alt="Paddy Image">
+                    
+                </div>
+                <div class="col-6 col-lg-4 themed-grid-col" style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    <b>Scientific Name:</b><p><i>Oryza sativa</i></p>
+                    <br>
+                    <b>Habitat:</b><p>Terai and Hilly</p><br>
+                    <b>Nepali Name:</b><p>Dhaan(धान)</p><br>
+                    <b>Season to grow:</b><p>Monsoon in Nepal</p>
+                    <b>Daily Water Need:</b><p>Approximately 10mm per day</p>
+                </div>
+                <hr class="my-2">
+                <div class="container-fluid">
+                    <article>
+                        <pre class="text-body-emphasis" style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                            Paddy, also known as rice, is a staple crop in Nepal and plays a crucial role in the country's agriculture and economy.
+                            Here are some details about paddy cultivation in Nepal:
+                            
+                            1. **Climatic Conditions**: Paddy cultivation in Nepal is largely influenced by the country's diverse climatic
+                            conditions. The Terai region, with its hot and humid climate, is particularly suitable for paddy cultivation. However,
+                            paddy is also grown in the hills and even in some high-altitude areas with appropriate terracing and irrigation systems.
+                            
+                            2. **Varieties**: Several varieties of paddy are cultivated in Nepal, including both traditional and modern
+                            high-yielding varieties. Traditional varieties are often adapted to local conditions and preferences, while modern
+                            varieties are developed through breeding programs to enhance productivity and disease resistance.
+                            
+                            3. **Cultivation Practices**: Paddy cultivation in Nepal typically involves both rainfed and irrigated methods. In the
+                            Terai region, where water availability is relatively higher, both methods are common. In the hills and mountains,
+                            terracing is often used to create flat land for paddy cultivation, and irrigation is managed through various traditional
+                            systems such as canals, ponds, and reservoirs.
+                            
+                            4. **Seasonality**: Paddy cultivation in Nepal follows the monsoon season, with planting usually taking place around
+                            June and harvesting occurring from September to November. However, in some areas where irrigation is available, farmers
+                            may cultivate paddy during the dry season as well.
+                            
+                            5. **Land Preparation**: Before planting, the land is prepared by plowing, leveling, and puddling to create a suitable
+                            seedbed for paddy cultivation. In terraced areas, farmers often use manual labor or animal traction for land
+                            preparation.
+                            
+                            6. **Seedling Preparation and Transplanting**: Paddy is typically grown from seedlings that are first raised in
+                            nurseries and then transplanted into the main field. The seedlings are usually transplanted when they are around 25 to
+                            30 days old, with the spacing between plants depending on the variety and local practices.
+                            
+                            7. **Pests and Diseases**: Paddy cultivation in Nepal is susceptible to various pests and diseases, including blast,
+                            bacterial leaf blight, and stem borers. Integrated pest management (IPM) practices, including the use of resistant
+                            varieties, biological control agents, and cultural practices, are employed to manage these challenges.
+                            
+                            8. **Harvesting and Post-Harvest Handling**: Paddy is harvested manually using sickles or, in some cases, with the help
+                            of small machines. After harvesting, the paddy is threshed to separate the grains from the stalks. Traditional methods
+                            of threshing include beating the harvested stalks on hard surfaces or using animals to trample over them. The grains are
+                            then dried and stored for consumption or sale.
+                            
+                            9. **Economic Importance**: Paddy cultivation is of significant economic importance in Nepal, employing a large portion
+                            of the population, particularly in rural areas. It not only provides food security but also contributes to rural
+                            livelihoods and the overall economy through its role in trade and agro-industrial activities.
+                            
+                            10. **Challenges and Opportunities**: Despite its importance, paddy cultivation in Nepal faces various challenges,
+                            including limited access to modern technologies, water scarcity, land fragmentation, and vulnerability to climate
+                            change. However, there are also opportunities for improvement through increased investment in agricultural research and
+                            extension services, infrastructure development, and the adoption of sustainable farming practices.
+                        </pre>
+                    </article>
+                </div>
+            </div>
+        </article>
+        <article class="my-3" id="images">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Wheat</h3>
+                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Wheat" style="float: right;">Documentation</a>
+            </div>
+<div class="row mb-3 text-center">
+    <div class="col-sm-6 col-lg-8 themed-grid-col me">
+        <img src="https://images.unsplash.com/photo-1437252611977-07f74518abd7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2hlYXR8ZW58MHx8MHx8fDA%3D"
+            class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+
+    </div>
+    <div class="col-6 col-lg-4 themed-grid-col" style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <b>Scientific Name:</b>
+        <p><i>Triticum</i></p>
+        <br>
+        <b>Habitat:</b>
+        <p>Terai</p><br>
+        <b>Nepali Name:</b>
+        <p>Gahu</p><br>
+        <b>Season to grow:</b>
+        <p>Summer</p>
+        <b>Daily Water Need:</b>
+        <p>31 to 38 centimeters/12 to 15 inches</p>
+    </div>
+    <hr class="my-2">
+    <div class="container-fluid">
+        <article>
+            <pre class="text-body-emphasis"
+                style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                            Wheat is another important cereal crop cultivated in Nepal, contributing significantly to the country's agriculture and
+                            economy. Here are details about wheat cultivation in Nepal:
+                            
+                            1. **Climatic Conditions**: Wheat cultivation in Nepal is primarily undertaken during the winter season, taking
+                            advantage of the cool and dry climate prevalent during that time. The crop is cultivated in various agro-ecological
+                            zones, including the Terai plains, hills, and even some higher altitude areas.
+                            
+                            2. **Varieties**: Several wheat varieties are cultivated in Nepal, including both traditional and improved high-yielding
+                            varieties. These varieties are selected based on factors such as suitability to local climatic conditions, disease
+                            resistance, and grain quality.
+                            
+                            3. **Cultivation Practices**: Wheat cultivation practices in Nepal involve land preparation, sowing, irrigation, and
+                            crop management. The land is typically prepared through plowing and harrowing to create a suitable seedbed. Sowing is
+                            usually done manually or using seed drills, with farmers aiming to plant the seeds at the optimal depth and spacing.
+                            
+                            4. **Seasonality**: Wheat cultivation in Nepal is primarily a winter crop, with planting usually taking place from
+                            October to December and harvesting occurring from March to May. The timing of planting and harvesting may vary depending
+                            on the specific location and altitude.
+                            
+                            5. **Irrigation**: In many areas of Nepal, wheat cultivation relies on irrigation, especially during the dry winter
+                            season. Irrigation methods vary from traditional systems such as canal irrigation to modern techniques like drip and
+                            sprinkler irrigation, depending on the availability of water resources and infrastructure.
+                            
+                            6. **Pests and Diseases**: Wheat crops in Nepal are susceptible to various pests and diseases, including rusts, aphids,
+                            and nematodes. Integrated pest and disease management strategies are employed to mitigate these risks, including the use
+                            of resistant varieties, crop rotation, and the application of appropriate pesticides when necessary.
+                            
+                            7. **Harvesting and Post-Harvest Handling**: Wheat is typically harvested manually using sickles or small mechanical
+                            harvesters. After harvesting, the wheat grains are threshed to separate them from the straw. Traditional threshing
+                            methods include beating the harvested bundles or using animals to trample over them. The grains are then dried and
+                            stored in suitable conditions to maintain quality and prevent spoilage.
+                            
+                            8. **Economic Importance**: Wheat cultivation plays a significant role in Nepal's economy, providing food security,
+                            employment, and income for millions of people, particularly in rural areas. It is not only a staple food crop but also
+                            contributes to trade and agro-industrial activities.
+                            
+                            9. **Challenges and Opportunities**: Like paddy cultivation, wheat cultivation in Nepal faces various challenges,
+                            including limited access to modern inputs and technologies, inadequate irrigation infrastructure, and the threat of
+                            pests and diseases. However, there are opportunities for improvement through increased investment in research and
+                            extension services, infrastructure development, and the adoption of sustainable farming practices to enhance
+                            productivity and resilience in the face of climate change.
+                        </pre>
+        </article>
+    </div>
+</div>
+        </article>
+        <article class="my-3" id="tables">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Maize</h3>
+                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Maize" style="float: right;">Documentation</a>
+            </div>
+
+            <div class="row mb-3 text-center">
+                <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                    <img src="https://media.istockphoto.com/id/1485792634/photo/ripe-yellow-corn-cob-on-the-field.webp?b=1&s=170667a&w=0&k=20&c=AajEISqEsUz4blte_0xvJAjc1fqG6RQmBQVpAJKBlHY="
+                        class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+            
+                </div>
+                <div class="col-6 col-lg-4 themed-grid-col" style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    <b>Scientific Name:</b>
+                    <p><i>Zea mays</i></p>
+                    <br>
+                    <b>Habitat:</b>
+                    <p>Terai & Hilly</p><br>
+                    <b>Nepali Name:</b>
+                    <p>Makai</p><br>
+                    <b>Season to grow:</b>
+                    <p>Winter</p>
+                    <b>Daily Water Need:</b>
+                    <p>varies from 2.5 to 4.3 mm/day</p>
+                </div>
+                <hr class="my-2">
+                <div class="container-fluid">
+                    <article>
+                        <pre class="text-body-emphasis"
+                            style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                        Maize (Zea mays), commonly known as corn, is one of the principal cereal crops grown in Nepal. Here are some details
+                                        about maize cultivation in Nepal:
+                                        
+                                        1. **Climatic Conditions**: Maize can be grown in various agro-ecological zones of Nepal, ranging from the Terai plains
+                                        to the high hills. It thrives in a subtropical to temperate climate with well-distributed rainfall.
+                                        
+                                        2. **Varieties**: Several maize varieties are cultivated in Nepal, including local landraces as well as improved
+                                        varieties developed by agricultural research institutions. Some popular varieties include Arun-2, Manakamana-3, Rampur
+                                        Composite, Deuti, Poshilo Makai, and others.
+                                        
+                                        3. **Land Preparation and Planting**: Maize is typically planted during the monsoon season (June to July) in Nepal. Land
+                                        preparation involves plowing, harrowing, and leveling. Farmers either use traditional methods or machinery for land
+                                        preparation. Planting is done manually or using seed drills at the onset of the monsoon rains.
+                                        
+                                        4. **Cultural Practices**: Maize requires adequate moisture and nutrients for optimal growth. Farmers in Nepal use
+                                        various cultural practices such as weeding, fertilization, and irrigation to ensure good crop growth. Inter-cropping
+                                        maize with legumes like soybeans or beans is also common.
+                                        
+                                        5. **Pests and Diseases**: Maize in Nepal is susceptible to a range of pests and diseases, including stem borers,
+                                        armyworms, leaf blight, and downy mildew. Integrated Pest Management (IPM) practices are increasingly being adopted to
+                                        manage pests and diseases sustainably.
+                                        
+                                        6. **Harvesting and Yield**: Maize is typically harvested in Nepal between September and November, depending on the
+                                        variety and location. Harvesting is done manually by cutting the mature cobs from the plants. Average maize yields in
+                                        Nepal vary depending on factors such as agro-ecological conditions, varieties, and management practices but typically
+                                        range from 2 to 4 tons per hectare.
+                                        
+                                        7. **Post-Harvest Handling and Storage**: After harvesting, maize cobs are dried in the field or on raised platforms to
+                                        reduce moisture content and prevent post-harvest losses due to mold and rot. Farmers often store maize in traditional
+                                        structures like granaries or modern storage facilities to protect it from pests and environmental factors.
+                                        
+                                        8. **Market and Consumption**: Maize is an important staple food in Nepal, consumed in various forms such as roasted
+                                        maize, cornbread, porridge, and as a key ingredient in traditional dishes. Additionally, maize is used as feed for
+                                        livestock. Surplus maize is sold in local markets or to traders for processing into products like flour, corn oil, or
+                                        animal feed.
+                                        
+                                        9. **Challenges**: Maize production in Nepal faces various challenges, including limited access to improved seeds,
+                                        inadequate irrigation facilities, pest and disease pressure, soil erosion, and climate change impacts such as erratic
+                                        rainfall patterns and extreme weather events. Agricultural extension services and research institutions are working to
+                                        address these challenges through the development and dissemination of improved technologies and practices.
+                                        
+                                        Overall, maize cultivation plays a crucial role in the agricultural economy and food security of Nepal, providing
+                                        livelihoods for millions of farmers and contributing to the country's food supply.
+                                    </pre>
+                    </article>
+                </div>
+            </div>
+        </article>
+        <article class="my-3" id="figures">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Potato</h3>
+                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Potato" style="float: right;">Documentation</a>
+            </div>
+
+        <div class="row mb-3 text-center">
+            <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90YXRvfGVufDB8fDB8fHww"
+                    class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+        
+            </div>
+            <div class="col-6 col-lg-4 themed-grid-col" style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <b>Scientific Name:</b>
+                <p><i>Solanum tuberosum</i></p>
+                <br>
+                <b>Habitat:</b>
+                <p>Terai</p><br>
+                <b>Nepali Name:</b>
+                <p>Aalu</p><br>
+                <b>Season to grow:</b>
+                <p>Winter</p>
+                <b>Daily Water Need:</b>
+                <p>between 1-2 inches of water per week</p>
+            </div>
+            <hr class="my-2">
+            <div class="container-fluid">
+                <article>
+                    <pre class="text-body-emphasis"
+                        style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                    Potato (Solanum tuberosum) is an important crop in Nepal, contributing significantly to both the agricultural sector and
+                                    the economy. Here are some details about potatoes in Nepal:
+                                    
+                                    1. **Cultivation Areas**: Potatoes are grown in various regions of Nepal, including the Terai plains, hills, and
+                                    mountainous areas. The Terai region, with its fertile soil and suitable climate, is particularly conducive to potato
+                                    cultivation.
+                                    
+                                    2. **Climate Requirements**: Potatoes thrive in temperate climates with cool temperatures and well-drained soil. In
+                                    Nepal, potato cultivation is mainly done in regions with elevations ranging from 1,200 meters to 2,500 meters above sea
+                                    level. The crop requires adequate rainfall or irrigation during the growing season.
+                                    
+                                    3. **Varieties**: Several potato varieties are cultivated in Nepal, including local landraces as well as improved
+                                    varieties developed through research and breeding. Some popular varieties grown in Nepal include Kufri Jyoti, Kufri
+                                    Sinduri, Kufri Lauvkar, and Kufri Surya.
+                                    
+                                    4. **Cultivation Practices**: Potato cultivation in Nepal typically involves land preparation, planting of seed tubers,
+                                    irrigation, weed control, and application of fertilizers and pesticides as needed. Farmers often use traditional farming
+                                    methods, although there is an increasing adoption of modern agricultural practices and technologies.
+                                    
+                                    5. **Yield and Production**: The yield of potatoes in Nepal can vary depending on factors such as climate, soil
+                                    fertility, and agricultural practices. On average, potato yields range from 10 to 20 tons per hectare, although higher
+                                    yields are possible with improved cultivation techniques.
+                                    
+                                    6. **Consumption and Market**: Potatoes are a staple food in Nepal and are consumed in various forms, including boiled,
+                                    fried, and as an ingredient in curries and other dishes. Additionally, potatoes are an important source of income for
+                                    many farmers, with both domestic consumption and export contributing to the potato market in Nepal.
+                                    
+                                    7. **Challenges**: Potato cultivation in Nepal faces several challenges, including pests and diseases such as late
+                                    blight, bacterial wilt, and potato cyst nematodes. Additionally, limited access to quality seeds, inadequate
+                                    infrastructure, and fluctuations in market prices pose challenges to potato farmers in the country.
+                                    
+                                    8. **Research and Development**: Efforts are underway in Nepal to improve potato cultivation through research, extension
+                                    services, and the development of high-yielding and disease-resistant varieties. Organizations such as the Nepal
+                                    Agricultural Research Council (NARC) play a key role in conducting research and providing technical support to potato
+                                    farmers.
+                                    
+                                    Overall, potatoes are an important crop in Nepal, contributing to food security, income generation, and agricultural
+                                    sustainability in the country.
+                                </pre>
+                </article>
+            </div>
+        </div>
+        </article>
+    </section>
+
+    <section id="forms">
+        <h2 class="sticky-xl-top text-center fw-bold ">Tips & Tricks</h2>
+
+        <article class="my-3" id="overview">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Garden</h3>
+                <a class="d-flex align-items-center" href="https://www.almanac.com/sites/default/files/pdfs/beginners-guide-to-gardening.pdf" style="float: right;">Documentation</a>
+            </div>
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1 px-5 mx-4">Gardening is love. <span class="text-body-secondary">Once you dive, you enjoy & learn.</span></h2>
+                    <p class="lead px-4 mx-5">
+                        Gardening is the growing of plants such as flowers, shrubs and trees as a hobby or recreation. Some people also grow
+                        vegetables or fruit in their gardens. People do gardening outdoors in the soil in their backyard, or in pots or
+                        containers on their balcony or on their patio.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <iframe width="500" height="500" src="https://www.youtube.com/embed/K9nxKzO74jg"
+                        title="Unusual Hacks For Growing Plants Anywhere 🌱 || Gardening Tips &amp; Hacks For Beginners 🌼" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+        <article class="my-3" id="disabled-forms">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Field</h3>
+                <a class="d-flex align-items-center" href="https://eird.org/pr14/cd/documentos/espanol/CaribeHerramientasydocumentos/Agricultura/oxfamguideagriculture2014eng.pdf" style="float: right;">Documentation</a>
+            </div>
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Farmers fulfill human foods <span
+                    class="text-body-secondary">[Checkmate!]</span></h2>
+            <p class="lead">
+                Farmers stand as the unsung heroes of civilization, weaving the intricate tapestry of sustenance that nourishes
+                humanity. Through their toil and dedication, they cultivate the very essence of life itself: food. With weathered hands
+                and steadfast resolve, they sow seeds of hope into the fertile earth, reaping the bounty that sustains nations. Their
+                fields, a testament to resilience, yield golden grains, vibrant fruits, and verdant vegetables, each harvest a symphony
+                of nature's abundance. From the crack of dawn to the twilight hours, farmers labor tirelessly, their connection to the
+                land deep-rooted and unwavering. Their commitment transcends mere sustenance; it embodies a sacred duty to feed the
+                hungry, to nourish communities, and to sustain the delicate balance between humanity and the earth. Indeed, farmers
+                fulfill not only our physical hunger but also our spiritual longing for connection, reminding us of the profound
+                significance of the humblest of seeds in nourishing both body and soul.
+            </p>
+        </div>
+        <div class="col-md-5 py-4">
+            <iframe width="500" height="400" src="https://www.youtube.com/embed/z1BWxDEu0P0"
+                title="Why do potatoes grow in bags of soil have so many tubers? Here is the answer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+        </article>
+        <article class="my-3" id="sizing">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Machinery</h3>
+                <a class="d-flex align-items-center" href="https://www.researchgate.net/publication/275642288_Guide_to_Agricultural_Machinery_Maintenance_and_Operation"style="float: right;">Documentation</a>
+            </div>
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1 px-5 mx-1">Machines, making easy to farmers <span class="text-body-secondary">[22nd century!]</span></h2>
+                    <p class="lead " style="margin-left: 55px;">
+                        In the age of technological advancement, machines have emerged as indispensable allies to farmers, transforming the
+                        landscape of agriculture and making once arduous tasks remarkably effortless. With their precision and power, machines
+                        have revolutionized the way farmers work, ushering in an era of efficiency and productivity. From automated tractors
+                        that till the soil with precision to drones that monitor crop health from above, these marvels of engineering have
+                        alleviated the burdens of manual labor, enabling farmers to focus their efforts on strategic decision-making and
+                        innovation. Through the seamless integration of cutting-edge technology, machines have become the backbone of modern
+                        farming, paving the way for sustainable practices and bountiful harvests. As the heartbeat of agricultural progress,
+                        machines stand as testament to human ingenuity, tirelessly striving to make the lives of farmers easier while ushering
+                        in a new era of prosperity for agriculture worldwide.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <iframe width="500" height="500" src="https://www.youtube.com/embed/CAQKxhQEDds"
+                        title="बहुत सस्ते में होगा अब घंटो का काम मिनटों में | German Tools | Best Farming Tools In India" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+        <article class="my-3" id="input-group">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Tools Utility</h3>
+                <a class="d-flex align-items-center" href="https://ncert.nic.in/vocational/pdf/kefc103.pdf"style="float: right;">Documentation</a>
+            </div>
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Better the tools, Better the crops.<span
+                            class="text-body-secondary">[Checkmate!]</span></h2>
+                    <p class="lead">In agriculture, the adage "Better the tools, better the crops" resonates deeply, encapsulating the essence of innovation
+                    and efficiency. The quality of tools wielded by farmers directly correlates with the yield and health of their crops.
+                    Cutting-edge implements, from precision planters to advanced irrigation systems, empower farmers to optimize resources,
+                    enhance productivity, and minimize environmental impact. With superior tools at their disposal, farmers can cultivate
+                    with greater precision, ensuring each seed finds its ideal environment to flourish. Moreover, innovative technology
+                    enables proactive pest and disease management, safeguarding crops and promoting sustainable practices. As we continue to
+                    advance agricultural tools and techniques, we not only amplify yields but also cultivate a brighter future, where
+                    agriculture thrives in harmony with nature, nourishing communities and sustaining our planet for generations to come.</p>
+                </div>
+                <div class="col-md-5 py-4">
+                    <iframe width="500" height="400" src="https://www.youtube.com/embed/kHCS2FJ-v7U"
+                        title="थ्री इडियट्स वाला वायरस जुगाड़🔥🔥Top 5 Smart Farming Techniques | Best Desi Jugaad Agriculture Tools"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </article>
+        <article class="my-3" id="floating-labels">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Government Schemes</h3>
+                <a class="d-flex align-items-center" href="/docs/5.3/forms/floating-labels/"style="float: right;">Documentation</a>
+            </div>
+
+            <div class="container-fluid py-2 my-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                #1 Agriculture Development Strategy(2015-2035)
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Objectives>>>>>>>>></strong> The objective of this report is to present the overall strategy for ADS including a 10-year
+                                Action Plan and Roadmap and a rationale based on the assessment of the current and past
+                                performance of the agricultural sector. <code>http://www.doanepal.gov.np/downloadfile/ADS_-FINAL_1542883806.pdf</code>,conducted by Government of Nepal(MOAD)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 #2 Evaluation Study by ADB
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Objectives>>>></strong>The main purpose of this sector assistance program evaluation (SAPE) is to assess the
+                                overall performance of the Asian Development Bank (ADB) assistance to the agriculture and
+                                natural resources (ANR) sector1
+                                in Nepal. To achieve this, the SAPE (i) assesses the strategic
+                                and institutional performance of ADB's sector assistance, (ii) assesses project and subsector
+                                performance; and (iii) identifies lessons and recommendations for future ADB operations in the
+                                sector. The SAPE is an important input to the country assistance program evaluation (CAPE), to
+                                the formulation of the next country partnership strategy (CPS), and related assistance programs
+                                and their implementation.<code>https://www.oecd.org/countries/nepal/47146419.pdf</code>, conducted by Asian Development Bank
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                #3 Innovation in Agricultural Education & Training
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Objectives>>>>></strong> IThis report was commissioned by the 'Innovation for Agriculture Training and Education (innovATE)'
+                                program. ‘innovATE’ is a recently-awarded 5-year USAID program led by Virginia Tech University,
+                                with the primary goal of strengthening training and education systems to improve the performance of the
+                                agricultural sector in developing countries around the world. Penn State, as one of the consortium partners
+                                on innovATE, has the responsibilities to lead innovATE activities in Asia, including Nepal, one of the US
+                                government’s focus countries under the ‘Feed the Future’ initiative. As a part of the innovATE program,
+                                this initial country assessment was conducted to review the current status of agricultural education and
+                                training (AET) in Nepal. This report encompasses the current strengths and challenges facing the AET
+                                system in Nepal, as well as potential next steps for strengthening these systems and ways for leveraging
+                                innoVATE program involvement.<code>https://agrilinks.org/sites/default/files/resource/files/innoVATE-Nepal-country-assessment_FINAL_Sep_2013.pdf</code>, conducted by PENNSTATE, TUSKEGEE UNIVERSITY & UNIVERSITY OF FLORIDA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+        <article class="my-3" id="validation">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Plant Disease</h3>
+                <a class="d-flex align-items-center" href="https://www.researchgate.net/publication/270572943_Plant_diseases_and_their_management_practices_in_commercial_organic_and_conventional_farms_in_Kathmandu_valley" style="float: right;">Documentation</a>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="card my-2" style="width: 18rem; height: auto;">
+                            <div class="container-fluid py-2 justify-content-center align-items-center">
+                                <iframe width="250" height="250" src="https://www.youtube.com/embed/-LrkxAtkWsg"
+                                    title="Major Disease of Rice and their management/धान के मुख्य रोग एवं उनके प्रबंधन।" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Rice Dwarf Virus(RDV)</h5><hr>
+                                <p class="card-text">
+                                During 1978-79, rice dwarf disease was recorded from Janakpur (Hardinath) (John et al., 1979) and Lalitpur (Khumaltar)(John et al., 1978; 1979) districts of Nepal. Dahal et al. (2008) conducted survey in 1993 and 1994 indicated that rice
+                                dwarf was found in the Kathmandu valley and disease incidence ranged from 0.1% to 20%. Later, based on particle
+                                morphology and/or serology Omura et al.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Cause</a>
+                                <a href="#" class="card-link">Treatment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-2" style="width: 18rem;">
+                            <div class="container-fluid py-2 justify-content-center align-items-center">
+                                <iframe width="250" height="250" src="https://www.youtube.com/embed/uEXaGPFDCkY"
+                                    title="Agro infection techniques for Mung bean yellow mosaic virus detection (MYMV)" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">MYMV</h5><hr>
+                                <p class="card-text">Mungbean yellow mosaic virus(MYMV) is the important diseases of soybean observed in terai inner terai region of Nepal and abundance of weed hosts
+                                specially Ageratum spp has been one of the major causes of high disease severity in Chitwan, (Darai et al., 2016). Darai
+                                et al. (2016), conducted three years (2012-2014) research on host resistance of soyabean against the MYMV.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Cause</a>
+                                <a href="#" class="card-link">Treatment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card my-2" style="width: 18rem;">
+                            <div class="container-fluid py-2 justify-content-center align-items-center">
+                                <iframe width="250" height="250" src="https://www.youtube.com/embed/FHA596hJnzo"
+                                    title="L12 | Diseases of Soybean | Plant Pathology | Management of Mosaic, Blight | BSc Agriculture | Exam"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Soybean mosaic virus</h5><hr>
+                                <p class="card-text" >This disease is characterized by the mosaic, mottling of leaves accompanied by a slight crinkling and reduction in size,
+                                plants become stunted and set a few pods only. Pods and seeds are reduced in size. It is an aphid and seed transmitted
+                                virus that infects soybean plants and causes significant yield losses (Darai et al, 2017). Management includes the use
+                                of virus free seed and control of aphid vector.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Cause</a>
+                                <a href="#" class="card-link">Treatment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="components">
+        <h2 class="sticky-xl-top text-center fw-bold">Market Prices</h2>
+
+        <article class="my-3" id="accordion">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Overview</h3>
+                <a class="d-flex align-items-center" href="/docs/5.3/components/accordion/" style="float: right;">Documentation</a>
+            </div>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner" style="width: 600px; height: 500px;">
+                                <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://t4.ftcdn.net/jpg/06/19/99/29/360_F_619992991_kgPLiUnfRsX7lKOXLL57ZY4sfomMclZj.jpg"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://media.istockphoto.com/id/840320076/photo/veggie-market.webp?b=1&s=170667a&w=0&k=20&c=yfve-28VcJYUauCHaqLXaj99SwH_y9leZaRVobFOR6Q="
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="true" href="#">Active</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Market Prizes</h5>
+                                <p class="card-text">This is the overview about the market prices in Nepal</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Overview on "Market Prizes" #1
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <strong>Here>>>></strong>In Nepal, agricultural policy and market prices play a crucial role in shaping the dynamics of the agricultural sector,
+                            which is the backbone of the country's economy. The government of Nepal has been implementing various policies to
+                            support and promote agricultural development, aiming to enhance productivity, improve livelihoods, and ensure food
+                            security. These policies often include subsidies, incentives for farmers, infrastructure development, and market
+                            facilitation measures. However, challenges such as limited access to credit, inadequate irrigation facilities, and
+                            vulnerability to natural disasters persist, hindering the sector's growth. Additionally, market prices of agricultural
+                            products fluctuate due to factors like supply and demand dynamics, seasonal variations, transportation costs, and
+                            external market influences. While some crops like rice, maize, wheat, and vegetables remain staples with relatively
+                            stable prices, others, such as fruits and cash crops, may experience more volatility. Efforts to stabilize prices,
+                            increase market access, and enhance value chains are ongoing to ensure a sustainable and prosperous agricultural sector
+                            in Nepal.<code>.gov.np</code>, Kathmandu Nepal.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+           
+        </article>
+        <article class="my-3" id="alerts">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>All prices</h3>
+                <a class="d-flex align-items-center" href="/docs/5.3/components/alerts/" style="float: right;">Documentation</a>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Prices of different indigredients</h5>
+                    <p class="card-text">This is the table taken from the website.</p>
+                    <p class="card-text"><b class="text-body-secondary">Last updated on May, 2023</b></p>
+                </div>
+                <img src="../static/images/prices.jpg" class="card-img-bottom" alt="..."><br>
+                <img src="../static/images/change.jpg" class="card-img-bottom" alt="...">
+
+            </div>
+           
+        </article>
+       
+        
+    </section>
+</div> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-8" style="float: left; width: 99%;">
+            <div class="bd-cheatsheet">
+                <section id="content">
+                    <h2 class="sticky-xl-top text-center fw-bold ">Crop Informaton</h2>
+
+                    <article class="my-3" id="typography">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Paddy</h3>
+                            <a class="d-flex align-items-center"
+                                href="https://en.wikipedia.org/wiki/National_Paddy_Day#History_and_significance"
+                                style="float: right;">Documentation</a>
+                        </div>
+                        <div class="row mb-3 text-center">
+                            <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                                <img src="https://media.istockphoto.com/id/514791816/photo/nepalese-man-working-in-a-rice-field.jpg?s=612x612&w=0&k=20&c=nklsF30W6x89KkzEwSafy06fGZw2csuOyV_P8RWMwwI="
+                                    class="rounded float-start" alt="Paddy Image">
+
+                            </div>
+                            <div class="col-6 col-lg-4 themed-grid-col"
+                                style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <b>Scientific Name:</b>
+                                <p><i>Oryza sativa</i></p>
+                                <br>
+                                <b>Habitat:</b>
+                                <p>Terai and Hilly</p><br>
+                                <b>Nepali Name:</b>
+                                <p>Dhaan(धान)</p><br>
+                                <b>Season to grow:</b>
+                                <p>Monsoon in Nepal</p>
+                                <b>Daily Water Need:</b>
+                                <p>Approximately 10mm per day</p>
+                            </div>
+                            <hr class="my-2">
+                            <div class="container-fluid" style="margin-left: -15%;">
+                                <article>
+                                    <pre class="text-body-emphasis"
+                                        style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                        Paddy, also known as rice, is a staple crop in Nepal and plays a crucial role in the country's agriculture and economy.
+                                        Here are some details about paddy cultivation in Nepal:
+                                        
+                                        1. **Climatic Conditions**: Paddy cultivation in Nepal is largely influenced by the country's diverse climatic
+                                        conditions. The Terai region, with its hot and humid climate, is particularly suitable for paddy cultivation. However,
+                                        paddy is also grown in the hills and even in some high-altitude areas with appropriate terracing and irrigation systems.
+                                        
+                                        2. **Varieties**: Several varieties of paddy are cultivated in Nepal, including both traditional and modern
+                                        high-yielding varieties. Traditional varieties are often adapted to local conditions and preferences, while modern
+                                        varieties are developed through breeding programs to enhance productivity and disease resistance.
+                                        
+                                        3. **Cultivation Practices**: Paddy cultivation in Nepal typically involves both rainfed and irrigated methods. In the
+                                        Terai region, where water availability is relatively higher, both methods are common. In the hills and mountains,
+                                        terracing is often used to create flat land for paddy cultivation, and irrigation is managed through various traditional
+                                        systems such as canals, ponds, and reservoirs.
+                                        
+                                        4. **Seasonality**: Paddy cultivation in Nepal follows the monsoon season, with planting usually taking place around
+                                        June and harvesting occurring from September to November. However, in some areas where irrigation is available, farmers
+                                        may cultivate paddy during the dry season as well.
+                                        
+                                        5. **Land Preparation**: Before planting, the land is prepared by plowing, leveling, and puddling to create a suitable
+                                        seedbed for paddy cultivation. In terraced areas, farmers often use manual labor or animal traction for land
+                                        preparation.
+                                        
+                                        6. **Seedling Preparation and Transplanting**: Paddy is typically grown from seedlings that are first raised in
+                                        nurseries and then transplanted into the main field. The seedlings are usually transplanted when they are around 25 to
+                                        30 days old, with the spacing between plants depending on the variety and local practices.
+                                        
+                                        7. **Pests and Diseases**: Paddy cultivation in Nepal is susceptible to various pests and diseases, including blast,
+                                        bacterial leaf blight, and stem borers. Integrated pest management (IPM) practices, including the use of resistant
+                                        varieties, biological control agents, and cultural practices, are employed to manage these challenges.
+                                        
+                                        8. **Harvesting and Post-Harvest Handling**: Paddy is harvested manually using sickles or, in some cases, with the help
+                                        of small machines. After harvesting, the paddy is threshed to separate the grains from the stalks. Traditional methods
+                                        of threshing include beating the harvested stalks on hard surfaces or using animals to trample over them. The grains are
+                                        then dried and stored for consumption or sale.
+                                        
+                                        9. **Economic Importance**: Paddy cultivation is of significant economic importance in Nepal, employing a large portion
+                                        of the population, particularly in rural areas. It not only provides food security but also contributes to rural
+                                        livelihoods and the overall economy through its role in trade and agro-industrial activities.
+                                        
+                                        10. **Challenges and Opportunities**: Despite its importance, paddy cultivation in Nepal faces various challenges,
+                                        including limited access to modern technologies, water scarcity, land fragmentation, and vulnerability to climate
+                                        change. However, there are also opportunities for improvement through increased investment in agricultural research and
+                                        extension services, infrastructure development, and the adoption of sustainable farming practices.
+                                    </pre>
+
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="my-3" id="images">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Wheat</h3>
+                            <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Wheat"
+                                style="float: right;">Documentation</a>
+                        </div>
+                        <div class="row mb-3 text-center">
+                            <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                                <img src="https://images.unsplash.com/photo-1437252611977-07f74518abd7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2hlYXR8ZW58MHx8MHx8fDA%3D"
+                                    class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+
+                            </div>
+                            <div class="col-6 col-lg-4 themed-grid-col"
+                                style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <b>Scientific Name:</b>
+                                <p><i>Triticum</i></p>
+                                <br>
+                                <b>Habitat:</b>
+                                <p>Terai</p><br>
+                                <b>Nepali Name:</b>
+                                <p>Gahu</p><br>
+                                <b>Season to grow:</b>
+                                <p>Summer</p>
+                                <b>Daily Water Need:</b>
+                                <p>31 to 38 centimeters/12 to 15 inches</p>
+                            </div>
+                            <hr class="my-2">
+                            <div class="container-fluid" style="margin-left: -15%;">
+                                <article>
+                                    <pre class="text-body-emphasis"
+                                        style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                        Wheat is another important cereal crop cultivated in Nepal, contributing significantly to the country's agriculture and
+                                        economy. Here are details about wheat cultivation in Nepal:
+                                        
+                                        1. **Climatic Conditions**: Wheat cultivation in Nepal is primarily undertaken during the winter season, taking
+                                        advantage of the cool and dry climate prevalent during that time. The crop is cultivated in various agro-ecological
+                                        zones, including the Terai plains, hills, and even some higher altitude areas.
+                                        
+                                        2. **Varieties**: Several wheat varieties are cultivated in Nepal, including both traditional and improved high-yielding
+                                        varieties. These varieties are selected based on factors such as suitability to local climatic conditions, disease
+                                        resistance, and grain quality.
+                                        
+                                        3. **Cultivation Practices**: Wheat cultivation practices in Nepal involve land preparation, sowing, irrigation, and
+                                        crop management. The land is typically prepared through plowing and harrowing to create a suitable seedbed. Sowing is
+                                        usually done manually or using seed drills, with farmers aiming to plant the seeds at the optimal depth and spacing.
+                                        
+                                        4. **Seasonality**: Wheat cultivation in Nepal is primarily a winter crop, with planting usually taking place from
+                                        October to December and harvesting occurring from March to May. The timing of planting and harvesting may vary depending
+                                        on the specific location and altitude.
+                                        
+                                        5. **Irrigation**: In many areas of Nepal, wheat cultivation relies on irrigation, especially during the dry winter
+                                        season. Irrigation methods vary from traditional systems such as canal irrigation to modern techniques like drip and
+                                        sprinkler irrigation, depending on the availability of water resources and infrastructure.
+                                        
+                                        6. **Pests and Diseases**: Wheat crops in Nepal are susceptible to various pests and diseases, including rusts, aphids,
+                                        and nematodes. Integrated pest and disease management strategies are employed to mitigate these risks, including the use
+                                        of resistant varieties, crop rotation, and the application of appropriate pesticides when necessary.
+                                        
+                                        7. **Harvesting and Post-Harvest Handling**: Wheat is typically harvested manually using sickles or small mechanical
+                                        harvesters. After harvesting, the wheat grains are threshed to separate them from the straw. Traditional threshing
+                                        methods include beating the harvested bundles or using animals to trample over them. The grains are then dried and
+                                        stored in suitable conditions to maintain quality and prevent spoilage.
+                                        
+                                        8. **Economic Importance**: Wheat cultivation plays a significant role in Nepal's economy, providing food security,
+                                        employment, and income for millions of people, particularly in rural areas. It is not only a staple food crop but also
+                                        contributes to trade and agro-industrial activities.
+                                        
+                                        9. **Challenges and Opportunities**: Like paddy cultivation, wheat cultivation in Nepal faces various challenges,
+                                        including limited access to modern inputs and technologies, inadequate irrigation infrastructure, and the threat of
+                                        pests and diseases. However, there are opportunities for improvement through increased investment in research and
+                                        extension services, infrastructure development, and the adoption of sustainable farming practices to enhance
+                                        productivity and resilience in the face of climate change.
+                                    </pre>
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="my-3" id="tables">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Maize</h3>
+                            <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Maize"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row mb-3 text-center">
+                            <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                                <img src="https://media.istockphoto.com/id/1485792634/photo/ripe-yellow-corn-cob-on-the-field.webp?b=1&s=170667a&w=0&k=20&c=AajEISqEsUz4blte_0xvJAjc1fqG6RQmBQVpAJKBlHY="
+                                    class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+
+                            </div>
+                            <div class="col-6 col-lg-4 themed-grid-col"
+                                style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <b>Scientific Name:</b>
+                                <p><i>Zea mays</i></p>
+                                <br>
+                                <b>Habitat:</b>
+                                <p>Terai & Hilly</p><br>
+                                <b>Nepali Name:</b>
+                                <p>Makai</p><br>
+                                <b>Season to grow:</b>
+                                <p>Winter</p>
+                                <b>Daily Water Need:</b>
+                                <p>varies from 2.5 to 4.3 mm/day</p>
+                            </div>
+                            <hr class="my-2">
+                            <div class="container-fluid" style="margin-left: -15%;">
+                                <article>
+                                    <pre class="text-body-emphasis"
+                                        style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                        Maize (Zea mays), commonly known as corn, is one of the principal cereal crops gr   in Nepal. Here are some details
+                                        about maize cultivation in Nepal:
+                                                    
+                                                    1. **Climatic Conditions**: Maize can be grown in various agro-ecological zones of Nepal, ranging from the Terai plains
+                                                    to the high hills. It thrives in a subtropical to temperate climate with well-distributed rainfall.
+                                                    
+                                                    2. **Varieties**: Several maize varieties are cultivated in Nepal, including local landraces as well as improved
+                                                    varieties developed by agricultural research institutions. Some popular varieties include Arun-2, Manakamana-3, Rampur
+                                                    Composite, Deuti, Poshilo Makai, and others.
+                                                    
+                                                    3. **Land Preparation and Planting**: Maize is typically planted during the monsoon season (June to July) in Nepal. Land
+                                                    preparation involves plowing, harrowing, and leveling. Farmers either use traditional methods or machinery for land
+                                                    preparation. Planting is done manually or using seed drills at the onset of the monsoon rains.
+                                                    
+                                                    4. **Cultural Practices**: Maize requires adequate moisture and nutrients for optimal growth. Farmers in Nepal use
+                                                    various cultural practices such as weeding, fertilization, and irrigation to ensure good crop growth. Inter-cropping
+                                                    maize with legumes like soybeans or beans is also common.
+                                                    
+                                                    5. **Pests and Diseases**: Maize in Nepal is susceptible to a range of pests and diseases, including stem borers,
+                                                    armyworms, leaf blight, and downy mildew. Integrated Pest Management (IPM) practices are increasingly being adopted to
+                                                    manage pests and diseases sustainably.
+                                                    
+                                                    6. **Harvesting and Yield**: Maize is typically harvested in Nepal between September and November, depending on the
+                                                    variety and location. Harvesting is done manually by cutting the mature cobs from the plants. Average maize yields in
+                                                    Nepal vary depending on factors such as agro-ecological conditions, varieties, and management practices but typically
+                                                    range from 2 to 4 tons per hectare.
+                                                    
+                                                    7. **Post-Harvest Handling and Storage**: After harvesting, maize cobs are dried in the field or on raised platforms to
+                                                    reduce moisture content and prevent post-harvest losses due to mold and rot. Farmers often store maize in traditional
+                                                    structures like granaries or modern storage facilities to protect it from pests and environmental factors.
+                                                    
+                                                    8. **Market and Consumption**: Maize is an important staple food in Nepal, consumed in various forms such as roasted
+                                                    maize, cornbread, porridge, and as a key ingredient in traditional dishes. Additionally, maize is used as feed for
+                                                    livestock. Surplus maize is sold in local markets or to traders for processing into products like flour, corn oil, or
+                                                    animal feed.
+                                                    
+                                                    9. **Challenges**: Maize production in Nepal faces various challenges, including limited access to improved seeds,
+                                                    inadequate irrigation facilities, pest and disease pressure, soil erosion, and climate change impacts such as erratic
+                                                    rainfall patterns and extreme weather events. Agricultural extension services and research institutions are working to
+                                                    address these challenges through the development and dissemination of improved technologies and practices.
+                                                    
+                                                    Overall, maize cultivation plays a crucial role in the agricultural economy and food security of Nepal, providing
+                                                    livelihoods for millions of farmers and contributing to the country's food supply.
+                                                </pre>
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="my-3" id="figures">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Potato</h3>
+                            <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/Potato"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row mb-3 text-center">
+                            <div class="col-sm-6 col-lg-8 themed-grid-col me">
+                                <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG90YXRvfGVufDB8fDB8fHww"
+                                    class="rounded float-start" alt="wheat Image" width="600px" height="400px">
+
+                            </div>
+                            <div class="col-6 col-lg-4 themed-grid-col"
+                                style="text-align: start; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <b>Scientific Name:</b>
+                                <p><i>Solanum tuberosum</i></p>
+                                <br>
+                                <b>Habitat:</b>
+                                <p>Terai</p><br>
+                                <b>Nepali Name:</b>
+                                <p>Aalu</p><br>
+                                <b>Season to grow:</b>
+                                <p>Winter</p>
+                                <b>Daily Water Need:</b>
+                                <p>between 1-2 inches of water per week</p>
+                            </div>
+                            <hr class="my-2">
+                            <div class="container-fluid" style="margin-left: -15%;">
+                                <article>
+                                    <pre class="text-body-emphasis"
+                                        style="text-align:justify; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                                        Potato (Solanum tuberosum) is an important crop in Nepal, contributing significantly tboth the agricultural sector and
+                                        the economy. Here are some details about potatoes in Nepal:
+                                                
+                                                1. **Cultivation Areas**: Potatoes are grown in various regions of Nepal, including the Terai plains, hills, and
+                                                mountainous areas. The Terai region, with its fertile soil and suitable climate, is particularly conducive to potato
+                                                cultivation.
+                                                
+                                                2. **Climate Requirements**: Potatoes thrive in temperate climates with cool temperatures and well-drained soil. In
+                                                Nepal, potato cultivation is mainly done in regions with elevations ranging from 1,200 meters to 2,500 meters above sea
+                                                level. The crop requires adequate rainfall or irrigation during the growing season.
+                                                
+                                                3. **Varieties**: Several potato varieties are cultivated in Nepal, including local landraces as well as improved
+                                                varieties developed through research and breeding. Some popular varieties grown in Nepal include Kufri Jyoti, Kufri
+                                                Sinduri, Kufri Lauvkar, and Kufri Surya.
+                                                
+                                                4. **Cultivation Practices**: Potato cultivation in Nepal typically involves land preparation, planting of seed tubers,
+                                                irrigation, weed control, and application of fertilizers and pesticides as needed. Farmers often use traditional farming
+                                                methods, although there is an increasing adoption of modern agricultural practices and technologies.
+                                                
+                                                5. **Yield and Production**: The yield of potatoes in Nepal can vary depending on factors such as climate, soil
+                                                fertility, and agricultural practices. On average, potato yields range from 10 to 20 tons per hectare, although higher
+                                                yields are possible with improved cultivation techniques.
+                                                
+                                                6. **Consumption and Market**: Potatoes are a staple food in Nepal and are consumed in various forms, including boiled,
+                                                fried, and as an ingredient in curries and other dishes. Additionally, potatoes are an important source of income for
+                                                many farmers, with both domestic consumption and export contributing to the potato market in Nepal.
+                                                
+                                                7. **Challenges**: Potato cultivation in Nepal faces several challenges, including pests and diseases such as late
+                                                blight, bacterial wilt, and potato cyst nematodes. Additionally, limited access to quality seeds, inadequate
+                                                infrastructure, and fluctuations in market prices pose challenges to potato farmers in the country.
+                                                
+                                                8. **Research and Development**: Efforts are underway in Nepal to improve potato cultivation through research, extension
+                                                services, and the development of high-yielding and disease-resistant varieties. Organizations such as the Nepal
+                                                Agricultural Research Council (NARC) play a key role in conducting research and providing technical support to potato
+                                                farmers.
+                                                
+                                                Overall, potatoes are an important crop in Nepal, contributing to food security, income generation, and agricultural
+                                                sustainability in the country.
+                                            </pre>
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <section id="forms">
+                    <h2 class="sticky-xl-top text-center fw-bold ">Tips & Tricks</h2>
+
+                    <article class="my-3" id="overview">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Garden</h3>
+                            <a class="d-flex align-items-center"
+                                href="https://www.almanac.com/sites/default/files/pdfs/beginners-guide-to-gardening.pdf"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row featurette">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading fw-normal lh-1 px-5 mx-4">Gardening is love. <span
+                                        class="text-body-secondary">Once you dive, you enjoy & learn.</span></h2>
+                                <p class="lead px-4 mx-5">
+                                    Gardening is the growing of plants such as flowers, shrubs and trees as a hobby or
+                                    recreation.
+                                    Some people also grow
+                                    vegetables or fruit in their gardens. People do gardening outdoors in the soil in
+                                    their
+                                    backyard, or in pots or
+                                    containers on their balcony or on their patio.
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1">
+                                <iframe width="500" height="500" src="https://www.youtube.com/embed/K9nxKzO74jg"
+                                    title="Unusual Hacks For Growing Plants Anywhere 🌱 || Gardening Tips &amp; Hacks For Beginners 🌼"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="my-3" id="disabled-forms">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Field</h3>
+                            <a class="d-flex align-items-center"
+                                href="https://eird.org/pr14/cd/documentos/espanol/CaribeHerramientasydocumentos/Agricultura/oxfamguideagriculture2014eng.pdf"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading fw-normal lh-1">Farmers fulfill human foods <span
+                                        class="text-body-secondary">[Checkmate!]</span></h2>
+                                <p class="lead">
+                                    Farmers stand as the unsung heroes of civilization, weaving the intricate tapestry
+                                    of sustenance
+                                    that nourishes
+                                    humanity. Through their toil and dedication, they cultivate the very essence of life
+                                    itself:
+                                    food. With weathered hands
+                                    and steadfast resolve, they sow seeds of hope into the fertile earth, reaping the
+                                    bounty that
+                                    sustains nations. Their
+                                    fields, a testament to resilience, yield golden grains, vibrant fruits, and verdant
+                                    vegetables,
+                                    each harvest a symphony
+                                    of nature's abundance. From the crack of dawn to the twilight hours, farmers labor
+                                    tirelessly,
+                                    their connection to the
+                                    land deep-rooted and unwavering. Their commitment transcends mere sustenance; it
+                                    embodies a
+                                    sacred duty to feed the
+                                    hungry, to nourish communities, and to sustain the delicate balance between humanity
+                                    and the
+                                    earth. Indeed, farmers
+                                    fulfill not only our physical hunger but also our spiritual longing for connection,
+                                    reminding us
+                                    of the profound
+                                    significance of the humblest of seeds in nourishing both body and soul.
+                                </p>
+                            </div>
+                            <div class="col-md-5 py-4">
+                                <iframe width="500" height="400" src="https://www.youtube.com/embed/z1BWxDEu0P0"
+                                    title="Why do potatoes grow in bags of soil have so many tubers? Here is the answer"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="my-3" id="sizing">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Machinery</h3>
+                            <a class="d-flex align-items-center"
+                                href="https://www.researchgate.net/publication/275642288_Guide_to_Agricultural_Machinery_Maintenance_and_Operation"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row featurette">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading fw-normal lh-1 px-5 mx-5">Machines, making easy to farmers
+                                    <span class="text-body-secondary">[22nd century!]</span></h2>
+                                <p class="lead " style="margin-left: 95px;">
+                                    In the age of technological advancement, machines have emerged as indispensable
+                                    allies to
+                                    farmers, transforming the
+                                    landscape of agriculture and making once arduous tasks remarkably effortless. With
+                                    their
+                                    precision and power, machines
+                                    have revolutionized the way farmers work, ushering in an era of efficiency and
+                                    productivity.
+                                    From automated tractors
+                                    that till the soil with precision to drones that monitor crop health from above,
+                                    these marvels
+                                    of engineering have
+                                    alleviated the burdens of manual labor, enabling farmers to focus their efforts on
+                                    strategic
+                                    decision-making and
+                                    innovation. Through the seamless integration of cutting-edge technology, machines
+                                    have become
+                                    the backbone of modern
+                                    farming, paving the way for sustainable practices and bountiful harvests. As the
+                                    heartbeat of
+                                    agricultural progress,
+                                    machines stand as testament to human ingenuity, tirelessly striving to make the
+                                    lives of farmers
+                                    easier while ushering
+                                    in a new era of prosperity for agriculture worldwide.
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1">
+                                <iframe width="500" height="500" src="https://www.youtube.com/embed/CAQKxhQEDds"
+                                    title="बहुत सस्ते में होगा अब घंटो का काम मिनटों में | German Tools | Best Farming Tools In India"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="my-3" id="input-group">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Tools Utility</h3>
+                            <a class="d-flex align-items-center" href="https://ncert.nic.in/vocational/pdf/kefc103.pdf"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading fw-normal lh-1">Better the tools, Better the crops.<span
+                                        class="text-body-secondary">[Checkmate!]</span></h2>
+                                <p class="lead">In agriculture, the adage "Better the tools, better the crops" resonates
+                                    deeply,
+                                    encapsulating the essence of innovation
+                                    and efficiency. The quality of tools wielded by farmers directly correlates with the
+                                    yield and
+                                    health of their crops.
+                                    Cutting-edge implements, from precision planters to advanced irrigation systems,
+                                    empower farmers
+                                    to optimize resources,
+                                    enhance productivity, and minimize environmental impact. With superior tools at
+                                    their disposal,
+                                    farmers can cultivate
+                                    with greater precision, ensuring each seed finds its ideal environment to flourish.
+                                    Moreover,
+                                    innovative technology
+                                    enables proactive pest and disease management, safeguarding crops and promoting
+                                    sustainable
+                                    practices. As we continue to
+                                    advance agricultural tools and techniques, we not only amplify yields but also
+                                    cultivate a
+                                    brighter future, where
+                                    agriculture thrives in harmony with nature, nourishing communities and sustaining
+                                    our planet for
+                                    generations to come.</p>
+                            </div>
+                            <div class="col-md-5 py-4">
+                                <iframe width="500" height="400" src="https://www.youtube.com/embed/kHCS2FJ-v7U"
+                                    title="थ्री इडियट्स वाला वायरस जुगाड़🔥🔥Top 5 Smart Farming Techniques | Best Desi Jugaad Agriculture Tools"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="my-3" id="floating-labels">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Government Schemes</h3>
+                            <a class="d-flex align-items-center" href="/docs/5.3/forms/floating-labels/"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="container-fluid py-2 my-4">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            #1 Agriculture Development Strategy(2015-2035)
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Objectives>>>>>>>>></strong> The objective of this report is to
+                                            present the
+                                            overall strategy for ADS including a 10-year
+                                            Action Plan and Roadmap and a rationale based on the assessment of the
+                                            current and past
+                                            performance of the agricultural sector.
+                                            <code>http://www.doanepal.gov.np/downloadfile/ADS_-FINAL_1542883806.pdf</code>,conducted
+                                            by Government of Nepal(MOAD)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            #2 Evaluation Study by ADB
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Objectives>>>></strong>The main purpose of this sector assistance
+                                            program
+                                            evaluation (SAPE) is to assess the
+                                            overall performance of the Asian Development Bank (ADB) assistance to the
+                                            agriculture
+                                            and
+                                            natural resources (ANR) sector1
+                                            in Nepal. To achieve this, the SAPE (i) assesses the strategic
+                                            and institutional performance of ADB's sector assistance, (ii) assesses
+                                            project and
+                                            subsector
+                                            performance; and (iii) identifies lessons and recommendations for future ADB
+                                            operations
+                                            in the
+                                            sector. The SAPE is an important input to the country assistance program
+                                            evaluation
+                                            (CAPE), to
+                                            the formulation of the next country partnership strategy (CPS), and related
+                                            assistance
+                                            programs
+                                            and their
+                                            implementation.<code>https://www.oecd.org/countries/nepal/47146419.pdf</code>,
+                                            conducted by Asian Development Bank
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            #3 Innovation in Agricultural Education & Training
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Objectives>>>>></strong> IThis report was commissioned by the
+                                            'Innovation for
+                                            Agriculture Training and Education (innovATE)'
+                                            program. ‘innovATE’ is a recently-awarded 5-year USAID program led by
+                                            Virginia Tech
+                                            University,
+                                            with the primary goal of strengthening training and education systems to
+                                            improve the
+                                            performance of the
+                                            agricultural sector in developing countries around the world. Penn State, as
+                                            one of the
+                                            consortium partners
+                                            on innovATE, has the responsibilities to lead innovATE activities in Asia,
+                                            including
+                                            Nepal, one of the US
+                                            government’s focus countries under the ‘Feed the Future’ initiative. As a
+                                            part of the
+                                            innovATE program,
+                                            this initial country assessment was conducted to review the current status
+                                            of
+                                            agricultural education and
+                                            training (AET) in Nepal. This report encompasses the current strengths and
+                                            challenges
+                                            facing the AET
+                                            system in Nepal, as well as potential next steps for strengthening these
+                                            systems and
+                                            ways for leveraging
+                                            innoVATE program
+                                            involvement.<code>https://agrilinks.org/sites/default/files/resource/files/innoVATE-Nepal-country-assessment_FINAL_Sep_2013.pdf</code>,
+                                            conducted by PENNSTATE, TUSKEGEE UNIVERSITY & UNIVERSITY OF FLORIDA
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+                    <article class="my-3" id="validation">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Plant Disease</h3>
+                            <a class="d-flex align-items-center"
+                                href="https://www.researchgate.net/publication/270572943_Plant_diseases_and_their_management_practices_in_commercial_organic_and_conventional_farms_in_Kathmandu_valley"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="card my-2" style="width: 18rem; height: auto;">
+                                        <div class="container-fluid py-2 justify-content-center align-items-center">
+                                            <iframe width="250" height="250"
+                                                src="https://www.youtube.com/embed/-LrkxAtkWsg"
+                                                title="Major Disease of Rice and their management/धान के मुख्य रोग एवं उनके प्रबंधन।"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rice Dwarf Virus(RDV)</h5>
+                                            <hr>
+                                            <p class="card-text">
+                                                During 1978-79, rice dwarf disease was recorded from Janakpur
+                                                (Hardinath) (John et
+                                                al., 1979) and Lalitpur (Khumaltar)(John et al., 1978; 1979) districts
+                                                of Nepal.
+                                                Dahal et al. (2008) conducted survey in 1993 and 1994 indicated that
+                                                rice
+                                                dwarf was found in the Kathmandu valley and disease incidence ranged
+                                                from 0.1% to
+                                                20%. Later, based on particle
+                                                morphology and/or serology Omura et al.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Cause</a>
+                                            <a href="#" class="card-link">Treatment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="card my-2" style="width: 18rem;">
+                                        <div class="container-fluid py-2 justify-content-center align-items-center">
+                                            <iframe width="250" height="250"
+                                                src="https://www.youtube.com/embed/uEXaGPFDCkY"
+                                                title="Agro infection techniques for Mung bean yellow mosaic virus detection (MYMV)"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">MYMV</h5>
+                                            <hr>
+                                            <p class="card-text">Mungbean yellow mosaic virus(MYMV) is the important
+                                                diseases of
+                                                soybean observed in terai inner terai region of Nepal and abundance of
+                                                weed hosts
+                                                specially Ageratum spp has been one of the major causes of high disease
+                                                severity in
+                                                Chitwan, (Darai et al., 2016). Darai
+                                                et al. (2016), conducted three years (2012-2014) research on host
+                                                resistance of
+                                                soyabean against the MYMV.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Cause</a>
+                                            <a href="#" class="card-link">Treatment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="card my-2" style="width: 18rem;">
+                                        <div class="container-fluid py-2 justify-content-center align-items-center">
+                                            <iframe width="250" height="250"
+                                                src="https://www.youtube.com/embed/FHA596hJnzo"
+                                                title="L12 | Diseases of Soybean | Plant Pathology | Management of Mosaic, Blight | BSc Agriculture | Exam"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Soybean mosaic virus</h5>
+                                            <hr>
+                                            <p class="card-text">This disease is characterized by the mosaic, mottling
+                                                of leaves
+                                                accompanied by a slight crinkling and reduction in size,
+                                                plants become stunted and set a few pods only. Pods and seeds are
+                                                reduced in size.
+                                                It is an aphid and seed transmitted
+                                                virus that infects soybean plants and causes significant yield losses
+                                                (Darai et al,
+                                                2017). Management includes the use
+                                                of virus free seed and control of aphid vector.</p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="card-link">Cause</a>
+                                            <a href="#" class="card-link">Treatment</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <section id="components">
+                    <h2 class="sticky-xl-top text-center fw-bold">Market Prices</h2>
+
+                    <article class="my-3" id="accordion">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>Overview</h3>
+                            <a class="d-flex align-items-center" href="/docs/5.3/components/accordion/"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="container text-center">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner" style="width: 600px; height: 500px;">
+                                            <div class="carousel-item active">
+                                                <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMG1hcmtldHxlbnwwfHwwfHx8MA%3D%3D"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://t4.ftcdn.net/jpg/06/19/99/29/360_F_619992991_kgPLiUnfRsX7lKOXLL57ZY4sfomMclZj.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://media.istockphoto.com/id/840320076/photo/veggie-market.webp?b=1&s=170667a&w=0&k=20&c=yfve-28VcJYUauCHaqLXaj99SwH_y9leZaRVobFOR6Q="
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-center">
+                                        <div class="card-header">
+                                            <ul class="nav nav-tabs card-header-tabs">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="true" href="#">Active</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Link</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Market Prizes</h5>
+                                            <p class="card-text">This is the overview about the market prices in Nepal
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Overview on "Market Prizes" #1
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        <strong>Here>>>></strong>In Nepal, agricultural policy and market prices play a
+                                        crucial role
+                                        in shaping the dynamics of the agricultural sector,
+                                        which is the backbone of the country's economy. The government of Nepal has been
+                                        implementing various policies to
+                                        support and promote agricultural development, aiming to enhance productivity,
+                                        improve
+                                        livelihoods, and ensure food
+                                        security. These policies often include subsidies, incentives for farmers,
+                                        infrastructure
+                                        development, and market
+                                        facilitation measures. However, challenges such as limited access to credit,
+                                        inadequate
+                                        irrigation facilities, and
+                                        vulnerability to natural disasters persist, hindering the sector's growth.
+                                        Additionally,
+                                        market prices of agricultural
+                                        products fluctuate due to factors like supply and demand dynamics, seasonal
+                                        variations,
+                                        transportation costs, and
+                                        external market influences. While some crops like rice, maize, wheat, and
+                                        vegetables remain
+                                        staples with relatively
+                                        stable prices, others, such as fruits and cash crops, may experience more
+                                        volatility.
+                                        Efforts to stabilize prices,
+                                        increase market access, and enhance value chains are ongoing to ensure a
+                                        sustainable and
+                                        prosperous agricultural sector
+                                        in Nepal.<code>.gov.np</code>, Kathmandu Nepal.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </article>
+                    <article class="my-3" id="alerts">
+                        <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                            <h3>All prices</h3>
+                            <a class="d-flex align-items-center" href="/docs/5.3/components/alerts/"
+                                style="float: right;">Documentation</a>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Prices of different indigredients</h5>
+                                <p class="card-text">This is the table taken from the website.</p>
+                                <p class="card-text"><b class="text-body-secondary">Last updated on May, 2023</b></p>
+                            </div>
+                            <img src="../static/images/prices.jpg" class="card-img-bottom" alt="..."><br>
+                            <img src="../static/images/change.jpg" class="card-img-bottom" alt="...">
+
+                        </div>
+
+                    </article>
+
+
+                </section>
+            </div>
+        </div>
+        <div class="col-4 position-fixed up-0 end-0 " style="width: 10%;">
+            <aside class="bd-aside sticky-xl-top text-body-secondary align-self-start mb-3 mb-xl-5">
+                <h2 class="h5 pt-4 pb-1 border-bottom">On this page</h2>
+                <nav class="small" id="toc">
+                    <ul class="list-unstyled">
+                        <li class="my-2">
+                            <button class="btn d-inline-flex align-items-center border-0" data-bs-toggle="collapse"
+                                aria-expanded="true" data-bs-target="#contents-collapse"
+                                aria-controls="contents-collapse"><strong>Crop Info</strong></button>
+                            <ul class="list-unstyled ps-3 collapse show" id="contents-collapse">
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#typography">Paddy</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#images">Wheat</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#tables">Maize</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none active"
+                                        href="#figures">Potato</a></li>
+                            </ul>
+                        </li>
+                        <li class="my-2">
+                            <button class="btn d-inline-flex align-items-center border-0 collapsed"
+                                data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse"
+                                aria-controls="forms-collapse"><strong>Tips</strong></button>
+                            <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#overview">Garden</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#disabled-forms">Field</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#sizing">Machinery</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#input-group">Tools Utility</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#floating-labels">Gov. Schemes</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#validation">Plant Disease</a></li>
+                            </ul>
+                        </li>
+                        <li class="my-2">
+                            <button class="btn d-inline-flex align-items-center collapsed border-0"
+                                data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse"
+                                aria-controls="components-collapse"><strong>Markets</strong></button>
+                            <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#accordion">Overview</a></li>
+                                <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                        href="#alerts">All
+                                        prices</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
