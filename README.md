@@ -12,7 +12,7 @@
 4. [Installation & Setup](#installation--setup)  
 5. [Configuration](#configuration)  
 6. [Running the Application](#running-the-application)  
-  6.1 [Folder Strucrure]
+  6.1 [Folder Structure](#folder-structure)
 7. [Usage](#usage)  
 8. [Translation & Localization](#translation--localization)  
 9. [Weather Forecast Integration](#weather-forecast-integration)  
@@ -33,6 +33,10 @@ AgriCart is a Flask-based e-commerce platform tailored for farmers. It provides 
 - **Payment Integration**: Supports IntaSend’s payment gateway via `intasend-python`.  
 
 This project was built solely by the author from the ground up.
+### Glimpse of Project:<br>
+[![Watch on YouTube](https://img.youtube.com/vi/IG47s2UiSIM/0.jpg)](https://youtu.be/IG47s2UiSIM)
+
+> Brief description of the video goes here, summarizing its content and purpose.  
 
 ---
 
