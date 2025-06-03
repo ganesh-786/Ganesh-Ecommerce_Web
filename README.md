@@ -130,7 +130,7 @@ All dependencies are listed in `requirements.txt`.
     pip install -r requirements.txt
    
 ## Running the application
-  ```bash
+    ```bash
     flask run
 ---
 
@@ -173,5 +173,4 @@ All dependencies are listed in `requirements.txt`.
 └── README.md
 
 
-## Licence
 This project is licensed under the name of Ganesh Chaudhary. Please, Don't copy the code.
