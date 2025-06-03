@@ -119,3 +119,16 @@ All dependencies are listed in `requirements.txt`.
    ```bash
    git clone https://github.com/ganesh-786/Ganesh-Ecommerce_Web
    cd agricart
+
+2. **Virtual Environment**
+   ```bash
+     python3 -m venv venv
+    source venv/bin/activate         # On Windows: venv\Scripts\activate
+3. **Installing Dependencies**
+   ```bash
+    pip install --upgrade pip
+    pip install -r requirements.txt
+   
+## Running the application
+  ```bash
+    flask run
