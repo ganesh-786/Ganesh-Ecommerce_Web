@@ -1,6 +1,6 @@
 # AgriCart: E-Commerce Platform for Farmers
 
-**Built solely by the author.**
+**Built solely by Ganesh Chaudhary.**
 
 ---
 
@@ -117,5 +117,5 @@ All dependencies are listed in `requirements.txt`.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/agricart.git
+   git clone https://github.com/ganesh-786/Ganesh-Ecommerce_Web
    cd agricart
