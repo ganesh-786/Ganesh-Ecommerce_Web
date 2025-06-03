@@ -12,12 +12,12 @@
 4. [Installation & Setup](#installation--setup)  
 5. [Configuration](#configuration)  
 6. [Running the Application](#running-the-application)  
-7. [Folder Structure](#folder-structure)  
-8. [Usage](#usage)  
-9. [Translation & Localization](#translation--localization)  
-10. [Weather Forecast Integration](#weather-forecast-integration)  
-11. [Techniques for Farmers](#techniques-for-farmers)  
-12. [License](#license)  
+  6.1 [Folder Strucrure]
+7. [Usage](#usage)  
+8. [Translation & Localization](#translation--localization)  
+9. [Weather Forecast Integration](#weather-forecast-integration)  
+10. [Techniques for Farmers](#techniques-for-farmers)  
+11. [License](#license)  
 
 ---
 
@@ -130,47 +130,44 @@ All dependencies are listed in `requirements.txt`.
     pip install -r requirements.txt
    
 ## Running the application
-    ```bash
-    flask run
----
+      flask run
+      ## Folder Struture
+      ├── agricart/
+      │   ├── __init__.py
+      │   ├── models.py
+      │   ├── forms.py
+      │   ├── routes/
+      │   │   ├── auth.py
+      │   │   ├── main.py
+      │   │   ├── products.py
+      │   │   ├── cart.py
+      │   │   └── weather.py
+      │   ├── static/
+      │   │   ├── css/
+      │   │   ├── js/
+      │   │   └── images/
+      │   ├── templates/
+      │   │   ├── base.html
+      │   │   ├── index.html
+      │   │   ├── login.html
+      │   │   ├── register.html
+      │   │   ├── product_list.html
+      │   │   ├── product_detail.html
+      │   │   ├── cart.html
+      │   │   ├── checkout.html
+      │   │   ├── weather.html
+      │   │   ├── techniques.html
+      │   │   └── translations/
+      │   │       ├── nepali/
+      │   │       │   └── *.po / *.mo
+      │   │       └── english/
+      │   │           └── *.po / *.mo
+      │   ├── translations/           # Flask-Babel translation files (if used)
+      │   ├── seed_data.py
+      │   ├── run.py                  # Entry point
+      │   ├── config.py
+      │   └── requirements.txt
+      └── README.md
 
-## Folder Struture
-├── agricart/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── forms.py
-│   ├── routes/
-│   │   ├── auth.py
-│   │   ├── main.py
-│   │   ├── products.py
-│   │   ├── cart.py
-│   │   └── weather.py
-│   ├── static/
-│   │   ├── css/
-│   │   ├── js/
-│   │   └── images/
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── index.html
-│   │   ├── login.html
-│   │   ├── register.html
-│   │   ├── product_list.html
-│   │   ├── product_detail.html
-│   │   ├── cart.html
-│   │   ├── checkout.html
-│   │   ├── weather.html
-│   │   ├── techniques.html
-│   │   └── translations/
-│   │       ├── nepali/
-│   │       │   └── *.po / *.mo
-│   │       └── english/
-│   │           └── *.po / *.mo
-│   ├── translations/           # Flask-Babel translation files (if used)
-│   ├── seed_data.py
-│   ├── run.py                  # Entry point
-│   ├── config.py
-│   └── requirements.txt
-└── README.md
-
-
+## Licence
 This project is licensed under the name of Ganesh Chaudhary. Please, Don't copy the code.
