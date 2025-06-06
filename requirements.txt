@@ -23,4 +23,5 @@ WTForms==3.0.1
 zipp==3.15.0
 gunicorn
 pycryptodome
+pyOpenSSL
 # add any other packages you use
