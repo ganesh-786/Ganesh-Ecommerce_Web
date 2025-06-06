@@ -36,7 +36,8 @@ This project was built solely by the author from the ground up.
 ### Glimpse of Project:<br>
 [![Watch on YouTube](https://img.youtube.com/vi/IG47s2UiSIM/0.jpg)](https://youtu.be/IG47s2UiSIM)
 
-> Brief description of the video goes here, summarizing its content and purpose.  
+> This is the link where I render this website:
+> Link: [Ganesh Website](https://ganesh-ecommerce-web-gaco.onrender.com)
 
 ---
 
